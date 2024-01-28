@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;@400;700;800&display=swap");
+
+.home{
+  background-color: #fff7ed;
+  background-image: url('./assets/image54.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vw;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 4vw;
+} 
+
+.home p {
+  margin-top: 0px;
+
+}
+
+
+.home-slogan{
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 6vw;
+}
+
+.home-text{
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.home-button{
+  background-color: #FF8C38;
+  color: white;
+
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 5px;
+
+  display: inline-block;
+  width: 78vw;
+  padding: 13px;
+
+  cursor: pointer;
+}
+
+.home-button:hover{
+  background-color: #dd7022;
+}
+
+.home-button:active{
+  background-color: #ff9549;
+}
+
+
+.navbar {
+  background-color: #fff7ed;
+  display: flex;
+  justify-content: space-between ;
+  align-items: baseline;
+  padding: 0px 20px;
+  position: relative;
+  margin-top: 0px;
+}
+
+.brand-name {
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+}
+
+.brand-name a {
+  text-decoration: none;
+}
+
+.brand-name a:visited {
+  color: #000000;
+  outline: none;
+}
+
+.links {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  
+  flex-basis: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.links a{
+  text-decoration: none;
+}
+
+.links a:visited {
+  color: #4D4D4D;
+  outline: none;
+}
+
+.links a:focus {
+  outline: none; /* Remove the default focus outline, if desired */
+  color: #FF8C38;;
+}
+
+.footer {
+  background-color: #252525;
+  color: #AAA;
+  padding: 20px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+
+.footer p {
+  margin-top: 0;
+}

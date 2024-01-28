@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&display=swap');
+.about{
+    background-color: #fff7ed;
+    margin-bottom: 0px;
+    
+}
+.about p {
+    margin-bottom: 0px;
+}
+.about-pic{
+    background-image: url('../assets/image55.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vw;
+    
+}
+.about-pic>p{
+    margin-top: 0;
+    color: rgba(255, 0, 0, 0);
+}
+
+.about-content{
+    padding: 30px;
+    
+}
+
+.about-slogan{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.about-text{
+    margin-top: 40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+}
+
+/*<div className="about-adv">
+<p className="about-adv-text">Your destination is waiting. Your van is ready.</p>
+<button className="about-adv-btn">*/
+
+.about-adv{
+    margin-top: 60px;
+    background-color:#FFCC8D;
+    border-radius: 5px;
+    padding: 5px 45px;
+    padding-bottom: 30px;
+}
+
+.about-adv-text {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 27px;
+    padding-bottom: 27px;
+}
+
+.about-adv-btn {
+    border: none;
+    border-radius: 10px;
+
+    background-color: black;
+    color: white;
+
+    padding: 18px 25px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
