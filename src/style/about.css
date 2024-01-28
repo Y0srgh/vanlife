@@ -10,10 +10,16 @@
 .about-pic{
     background-image: url('../assets/image55.png');
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 45vw;
+    /*height: 51vw;
+    width: 120vw;*/
+    width: 100%;
+    height: 41vw;
     
+    flex-shrink: 0;
 }
+
+
+
 .about-pic>p{
     margin-top: 0;
     color: rgba(255, 0, 0, 0);
@@ -37,10 +43,6 @@
     font-style: normal;
     font-size: 19px;
 }
-
-/*<div className="about-adv">
-<p className="about-adv-text">Your destination is waiting. Your van is ready.</p>
-<button className="about-adv-btn">*/
 
 .about-adv{
     margin-top: 60px;
@@ -69,4 +71,6 @@
 
     font-size: 20px;
     font-weight: bold;
+
+    cursor: pointer;
 }

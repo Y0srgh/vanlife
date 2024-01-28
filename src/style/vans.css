@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.vans {
+    padding: 10px;
+    font-family:Inter;
+}
+
+.vans-title{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.vans-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: stretch;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+
+.van-container{
+    /*width: 200px;*/
+}
+
+.van-image {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.van-container-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    row-gap: 0px; /* Gap along the main axis */
+    column-gap: 60px;
+}
+
+p {
+    margin: 0;
+}
+.van-name,
+.van-price {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.662px;
+}
+
+.van-price-period {
+    font-size: 12px;
+    margin: 0;
+}
+
+.van-type{
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.662px;
+    padding: 4px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+}
+
+.van-type .luxury{
+    background-color: rgb(67, 119, 40);
+
+}
+
+@media (max-width: 900px){
+    .vans-container{
+      grid-template-columns: 1fr 1fr ;
+  
+    }
+}
+
+
+  

@@ -1,19 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;@400;700;800&display=swap");
 
-.home{
+body {
   background-color: #fff7ed;
+  
+}
+
+.home{
+  
   background-image: url('./assets/image54.png');
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 50vw;
-  display: flex;
+  /*background-repeat: no-repeat;
+  height: 50vw;*/
+  max-width: 100%;
+  height: auto;
 
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
   padding-left: 4vw;
+  
+  
 } 
+
 
 .home p {
   margin-top: 0px;
