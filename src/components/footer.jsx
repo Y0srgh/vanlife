@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <p><FontAwesomeIcon icon={faCopyright} /> 2022 #VANLIFE
+        <p><FontAwesomeIcon icon={faCopyright} /> 2024 #VANLIFE
         </p>
       </div>
     );

@@ -48,8 +48,8 @@
     margin-top: 60px;
     background-color:#FFCC8D;
     border-radius: 5px;
-    padding: 5px 45px;
-    padding-bottom: 30px;
+    padding: 30px 45px;
+    text-align: start;
 }
 
 .about-adv-text {

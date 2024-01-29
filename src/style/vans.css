@@ -48,6 +48,7 @@ p {
     font-style: normal;
     font-weight: 600;
     line-height: 31.662px;
+    display: inline ;
 }
 
 .van-price-period {
@@ -63,13 +64,16 @@ p {
     line-height: 31.662px;
     padding: 4px 20px;
     border-radius: 10px;
-    color: white;
-    background-color: orange;
+    color: #FFEAD0;
+    background: #E17654;
 }
 
-.van-type .luxury{
-    background-color: rgb(67, 119, 40);
+.van-type.luxury{
+    background: rgb(0, 0, 0);
+}
 
+.van-type.rugged{
+    background: #115E59;
 }
 
 @media (max-width: 900px){

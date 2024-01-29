@@ -2,7 +2,6 @@
 
 body {
   background-color: #fff7ed;
-  
 }
 
 .home{
@@ -12,15 +11,16 @@ body {
   /*background-repeat: no-repeat;
   height: 50vw;*/
   max-width: 100%;
-  height: auto;
-
+  /*height: 510px;*/
+  height:70vh ;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
   padding-left: 4vw;
-  
+  row-gap: 45px;
   
 } 
 
@@ -64,6 +64,7 @@ body {
   padding: 13px;
 
   cursor: pointer;
+
 }
 
 .home-button:hover{

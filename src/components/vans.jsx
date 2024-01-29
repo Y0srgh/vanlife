@@ -27,8 +27,8 @@ const Vans = () => {
           <img className="van-image" src ={van.imageUrl} alt="" />
           <div className="van-container-content">
             <p className="van-name">{van.name}</p>
-            <div><p className="van-price">${van.price}</p><p className="van-price-period">/day</p></div>
-            <p className={"van-type "+ van.type}>{van.type}</p>
+            <div ><p className="van-price">${van.price}</p><p className="van-price-period">/day</p></div>
+            <p className={ "van-type "+ van.type }>{ van.type }</p>
           </div>
         </div>))}
       </div>
