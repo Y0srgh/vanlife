@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import { Route,Routes,BrowserRouter } from 'react-router-dom';
 import NavBar from './components/navBar';
 import About from './components/about';
@@ -7,8 +7,7 @@ import Footer from './components/footer';
 import Home from './components/home';
 import './App.css';
 import VanDetail from './components/vanDetail';
-class App extends Component {
-  render() { 
+function App() {
     return (
     <BrowserRouter>
       <NavBar/>
@@ -20,7 +19,7 @@ class App extends Component {
       </Routes> 
       <Footer/>
     </BrowserRouter>);
-  }
+  
 }
  
 export default App;

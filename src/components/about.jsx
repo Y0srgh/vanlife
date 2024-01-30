@@ -5,7 +5,7 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div className="about">
+      <main><div className="about ">
         <div className="about-pic">
           <p>hello</p>
         </div>
@@ -22,7 +22,7 @@ class About extends Component {
                 </button>
             </div>
         </div>
-      </div>
+      </div></main>
     );
   }
 }

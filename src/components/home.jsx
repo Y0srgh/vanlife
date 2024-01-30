@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 class Home extends Component {
     state = {  } 
     render() { 
-        return (<div className="home">
+        return (
+        <main><div className="home ">
         <div className="home-content"></div>
         <p className="home-slogan">
           You got the travel plans, we got the travel vans.
@@ -13,7 +14,7 @@ class Home extends Component {
         <div>
             <button className="home-button">Find your van</button>
         </div>
-      </div>);
+      </div></main>);
     }
 }
  

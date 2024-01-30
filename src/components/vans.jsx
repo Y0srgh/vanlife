@@ -15,7 +15,7 @@ const Vans = () => {
 
 //("van", { id: "", name: "", price: , description: "", imageUrl: "", type: "" })
   return (
-    <div className="vans">
+    <main><div className="vans ">
       <h1 className="vans-title">Explore our van options</h1>
       {vansData.length > 0 && (
       <div className="vans-containers">
@@ -37,7 +37,7 @@ const Vans = () => {
       </div>
         
       )}
-    </div>
+    </div></main>
   );
 };
 
