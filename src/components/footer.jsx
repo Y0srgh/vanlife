@@ -5,10 +5,10 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <div className="footer">
+      <footer className="footer">
         <p><FontAwesomeIcon icon={faCopyright} /> 2024 #VANLIFE
         </p>
-      </div>
+      </footer>
     );
   }
 }
