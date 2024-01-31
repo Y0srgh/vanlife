@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../style/vans.css"
+import "../../style/vans.css"
 import { Link } from "react-router-dom";
 const Vans = () => {
   const [vansData, setVansData] = useState([]);
