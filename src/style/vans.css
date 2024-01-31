@@ -2,6 +2,10 @@
 .vans {
   padding: 40px;
   font-family: Inter;
+  display: flex;
+  row-gap: 50px;
+  flex-direction: column;
+  padding: 60px;
 }
 
 .van-container {
@@ -12,6 +16,7 @@
 }
 
 .vans-title {
+  flex: 1;
   font-weight: 500;
   font-size: 40px;
 }

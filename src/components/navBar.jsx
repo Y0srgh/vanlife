@@ -11,6 +11,7 @@ class NavBar extends Component {
             <Link to={"/"}>#VANLIFE</Link >
             
         </div><div className='links'>
+            <Link to={"/host"}>Hosts</Link>
             <Link to={"/about"}>About</Link>
             <Link to={"/vans"}>Vans</Link>
         </div>
