@@ -7,6 +7,8 @@
   flex-direction: column;
 }
 
+
+
 .van-container {
   display: flex;
   flex-direction: column;
@@ -126,16 +128,19 @@ p {
   background: #e17654;
 }
 
+.van-detailed-type.luxury,
 .van-type.luxury {
   background: rgb(0, 0, 0);
 }
 
+.van-detailed-type.rugged,
 .van-type.rugged {
   background: #115e59;
 }
 
 .van-detailed-type {
   width: 50px;
+  padding: 5px 22px 10px 10px;
 }
 
 .van-description {
