@@ -1,0 +1,10 @@
+services:
+  web-fe:
+    build: .
+    command: npm run dev
+    ports:
+      - 5173:5173
+  redis:
+    image: "redis:alpine"
+    ports:
+      - 6379    
