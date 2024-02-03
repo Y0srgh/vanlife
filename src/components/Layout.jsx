@@ -8,8 +8,6 @@ export default function Layout() {
         <div className="site-wrapper">
             <NavBar/>
             <main>
-
-            
             <Outlet />
             </main>
             <Footer/>
