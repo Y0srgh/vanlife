@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 .host-links {
   display: flex;
   flex-direction: row;
   column-gap: 40px;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .host-links a{
-  color: #000000;
+  color: rgb(58, 96, 97);
   text-decoration: none;
 }
 
@@ -20,4 +22,140 @@ a.host-links-active {
   outline: none; /* Remove the default focus outline, if desired */
   text-decoration: underline;
   color: #ff8c38;
+}
+
+section {
+  margin-top: 60px;
+}
+
+.host-layout{
+  padding-left: 20px;
+}
+
+.host-van-container{
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  width: 80vw;
+  border-radius: 9px;
+}
+
+.host-van-image{
+  border-radius: 9px;
+  margin-right: 20px;
+}
+
+.host-van-container-desc{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 65vw;
+}
+
+.edit {
+  text-align: end;  
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 18px;
+  padding-bottom: 0;
+}
+
+.edit:nth-child(2) {
+  align-self: flex-end;
+}
+
+.host-van-name{
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 10px;
+}
+
+
+.host-van-price{
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(58, 96, 97);
+}
+
+.host-vans a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.host-van-detail{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 15px;
+  width: 80vw;
+  row-gap: 25px;
+  margin-top: 35px;
+}
+
+.host-van-detail-general{
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.host-van-detail-image{
+  width: 190px;
+  border-radius: 3px;
+
+}
+
+.van-desc-name,
+.van-desc-type,
+.van-desc-description,
+.van-desc-visibility{
+  font-size: 17px;
+  font-weight: 700;
+
+}
+
+span{
+  font-weight: 500;
+}
+
+.van-photos{
+  width: 120px;
+  border-radius: 7px;
+}
+
+.host-vans-pricing{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.host-vans-pricing span{
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(58, 96, 97);
+}
+
+.back-button{  
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(151, 151, 151);
+}
+
+.back-button span{
+  font-weight: 500;
+  text-decoration: underline;
+  color: black;
+}
+
+@media only screen and (max-width: 440px) {
+  .host-van-name {
+    font-size: 18px; /* Adjust the width for screens wider than 600px */
+  }
+  .host-links {
+    font-size: 15px;
+  }
 }

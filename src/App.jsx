@@ -12,7 +12,11 @@ import Dashboard from './pages/Host/Dashboard';
 import Income from './pages/Host/Income';
 import Reviews from './pages/Host/Reviews';
 import HostVans from './pages/Host/HostVans';
+import HostVanDetail from './pages/Host/HostVanDetail';
 import HostLayout from './components/HostLayout';
+import VanDetails from './pages/Host/VanDetails';
+import VanPricing from './pages/Host/VanPricing';
+import VanPhotos from './pages/Host/VanPhotos';
 
 function App() {
     return (
@@ -23,6 +27,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path="about" element={<About/>}/>
 
+      {/*the nesting here is not mendatory since both pages do not share any ui */}
         <Route path="vans">
           <Route index element={<Vans/>}/>
           <Route path=":id" element={<VanDetail/>}/>
@@ -32,10 +37,13 @@ function App() {
           <Route index element={<Dashboard/>}/>
           <Route path="income" element={<Income/>}/>
           <Route path="reviews" element={<Reviews/>}/>
-          <Route path="vans">
-            <Route index element={<HostVans/>}/>
-            <Route path=":id" element={<VanDetail/>}/>
-          </Route>
+          <Route path="vans" element={<HostVans/>} />
+          
+          <Route path="vans/:id" element={<HostVanDetail/>}>
+            <Route index element={<VanDetails />}/>
+            <Route path="pricing" element={<VanPricing/>} />
+            <Route path="photos" element={<VanPhotos/>}/>
+          </Route>  
         </Route>
       </Route>
       </Routes> 
