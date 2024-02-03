@@ -78,9 +78,21 @@
   row-gap: 20px;
 }
 
-p {
-  margin: 0;
+
+.rent-btn{
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF8C38;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 700;
+    cursor: pointer;
 }
+
+
+
 
 .van-name,
 .van-price,
@@ -149,18 +161,7 @@ p {
   font-size: 18px;
 }
 
-.rent-btn{
-    padding: 16px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    background-color: #FF8C38;
-    font-size: 18px;
-    font-family: Inter;
-    font-weight: 700;
-    width:420px;
-    cursor: pointer;
-}
+
 
 @media (min-width: 900px) {
   .vans-container {
