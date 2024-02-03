@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-class Vans extends Component {
+class HostVans extends Component {
     state = {  } 
     render() { 
         return (
-            <h1>Hello from host vans</h1>
+            <h1>Hello from HostVans</h1>
         );
     }
 }
  
-export default Vans;
+export default HostVans;
