@@ -3,7 +3,7 @@
   padding: 60px;
   font-family: Inter;
   display: flex;
-  row-gap: 50px;
+  row-gap: 30px;
   flex-direction: column;
 }
 
@@ -18,8 +18,9 @@
 
 .vans-title {
   flex: 1;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 40px;
+  margin-bottom: 0;
 }
 
 .vans-containers {
@@ -159,6 +160,47 @@
   font-family: Inter;
   font-weight: 500;
   font-size: 18px;
+}
+
+.filter {
+  margin-bottom: 40px;
+}
+
+.filter-type {
+  margin-right: 25px;
+  padding: 10px 28px;
+  background-color: #FFEAD0;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+a.filter-type{
+  color: #4D4D4D;
+  text-decoration: none;
+}
+
+a.clear-filter{
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #4D4D4D;
+  transition: 1000ms all cubic-bezier(0.4, 0, 0.2, 1);}
+
+
+a.filter-type:hover {
+  color: #FFEAD0;
+  text-decoration: underline;
+}
+a.luxury:hover {
+  background: rgb(0, 0, 0);
+}
+
+a.simple:hover {
+  background: #e17654;
+}
+
+a.rugged:hover {
+  background: #115e59;
 }
 
 @media (min-width: 900px) {

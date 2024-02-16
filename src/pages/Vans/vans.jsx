@@ -20,13 +20,23 @@ const Vans = () => {
       });
   }, []);
 
+  const data = typeFilter ? 
+                vansData.filter(van=>van.type === typeFilter):
+                vansData;
+
 //("van", { id: "", name: "", price: , description: "", imageUrl: "", type: "" })
   return (
     <main><div className="vans ">
       <h1 className="vans-title">Explore our van options</h1>
-      {vansData.length > 0 && (
+      <div className="filter">
+        <Link className="filter-type simple" to="?type=simple">Simple</Link>
+        <Link className="filter-type luxury" to="?type=luxury">Luxury</Link>
+        <Link className="filter-type rugged" to="?type=rugged">Rugged</Link>
+        <Link to="." className="clear-filter">Clear filters</Link>
+      </div>
+      {data.length > 0 && (
       <div className="vans-containers">
-        {vansData.map(van => ( 
+        {data.map(van => ( 
         <div key={van.id} className="van-container">
           <Link 
             to={`/vans/${van.id}`}
