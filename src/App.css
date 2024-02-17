@@ -160,8 +160,23 @@ a.links-active{
   text-decoration: underline;
 }
 
+.not-found {
+  margin: 30px;
+  
+}
 
+.not-found>h1{
+  margin-bottom: 50px;
+}
 
+.fourowfour {
+  background-color: #000000;
+  color: white;
+  padding: 13px 20%; 
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
 
 main {
   margin-bottom: 84px;

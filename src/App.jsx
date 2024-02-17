@@ -17,13 +17,14 @@ import HostLayout from './components/HostLayout';
 import VanDetails from './pages/Host/VanDetails';
 import VanPricing from './pages/Host/VanPricing';
 import VanPhotos from './pages/Host/VanPhotos';
-
+import NotFound from './pages/notFound';
 function App() {
     return (
     <BrowserRouter>
       
       <Routes>
         <Route path="/" element={< Layout />}>
+        <Route path="/*" element={<NotFound/>}/> 
         <Route index element={<Home/>}/>
         <Route path="about" element={<About/>}/>
 

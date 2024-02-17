@@ -172,36 +172,85 @@
   background-color: #FFEAD0;
   border-radius: 5px;
   font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: 400ms all cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
-a.filter-type{
+.filter-type{
   color: #4D4D4D;
   text-decoration: none;
 }
 
-a.clear-filter{
+.clear-filter{
   margin-left: 25px;
   font-weight: 500;
   font-size: 17px;
   color: #4D4D4D;
-  transition: 1000ms all cubic-bezier(0.4, 0, 0.2, 1);}
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
 
 
-a.filter-type:hover {
+.filter-type:hover {
   color: #FFEAD0;
   text-decoration: underline;
 }
-a.luxury:hover {
+.luxury:hover {
   background: rgb(0, 0, 0);
 }
 
-a.simple:hover {
+.simple:hover {
   background: #e17654;
 }
 
-a.rugged:hover {
+.rugged:hover {
   background: #115e59;
 }
+
+
+/*button.simple:focus{
+  outline: none; 
+  background: #e17654;
+  color: #FFEAD0;
+  text-decoration: underline;
+}*/
+.simple-selected {
+  outline: none; 
+  background: #e17654;
+  color: #FFEAD0;
+  text-decoration: underline;
+}
+/*button.rugged:focus{
+  outline: none;
+  background: #115e59;
+  color: #FFEAD0;
+  text-decoration: underline;
+}*/
+.rugged-selected {
+  outline: none; /* Remove the default focus outline, if desired */
+  background: #115e59;
+  color: #FFEAD0;
+  text-decoration: underline;
+}
+/*button.luxury:focus{
+  outline: none; 
+  background: #000000;
+  color: #FFEAD0;
+  text-decoration: underline;
+}*/
+
+.luxury-selected {
+  outline: none; /* Remove the default focus outline, if desired */
+  background: #000000;
+  color: #FFEAD0;
+  text-decoration: underline;
+}
+
 
 @media (min-width: 900px) {
   .vans-container {
